@@ -44,9 +44,9 @@ public class Register {
         System.out.println("-----------  Cadastro Player  ---------");
         System.out.println("---------------------------------------");
         System.out.println(" Qual é o seu nome: ");
-        player.name = teclado.nextLine();
+        player.name = teclado.next();
         System.out.println(" Selecione sua skin [red- yellow - blue] : ");
-        player.skin = teclado.nextLine();
+        player.skin = teclado.next();
         System.out.println("------ Player Cadastrado com Sucesso ------");
 
         if (avaliaAmbos != 1) {
@@ -60,9 +60,9 @@ public class Register {
         System.out.println("------------- Cadastro Enemy----------");
         System.out.println("---------------------------------------");
         System.out.println("Qual é o seu nome");
-        player.name = teclado.nextLine();
+        enemy.name = teclado.next();
         System.out.println(" Selecione sua skin [red- yellow - blue] : ");
-        player.skin = teclado.nextLine();
+        enemy.skin = teclado.next();
         System.out.println("------ Player Cadastrado com Sucesso ------");
 
         if (avaliaAmbos != 1) {
@@ -77,7 +77,7 @@ public class Register {
 
         System.out.println(" Seja Bem-vindo!!! ");
         System.out.println(" o que deseja cadastrar? [Player - Enemys - Ambos] ");
-        decision = teclado.nextLine();
+        decision = teclado.next();
 
         switch (decision.toLowerCase()) {
 
