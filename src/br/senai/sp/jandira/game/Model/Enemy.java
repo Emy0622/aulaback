@@ -9,4 +9,15 @@ public class Enemy {
     public int life = 100;
 
 
+    public Enemy(){
+        life=100;
+    }
+
+
+    public int getLife() {
+        return life;
+    }
 }
+
+
+
